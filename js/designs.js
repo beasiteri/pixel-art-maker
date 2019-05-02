@@ -1,6 +1,7 @@
 const inputHeight = document.querySelector('#inputHeight');
 const inputWidth = document.querySelector('#inputWidth');
 const table = document.querySelector('#pixelCanvas');
+const colorPicker = document.querySelector('#colorPicker');
 
 /**
  * Get input values and create the table
@@ -22,5 +23,13 @@ function makeGrid() {
         }
         // add the table rows to the table
         table.appendChild(tableRow);
+    }
+}
+
+// Change the background color of the table cell
+function changeColor(event) {
+    const colorValue = colorPicker['value'];
+    if (event.target.nodeName === 'TD') {
+        event.target.style.background = colorValue;
     }
 }
