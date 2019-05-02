@@ -2,6 +2,7 @@ const inputHeight = document.querySelector('#inputHeight');
 const inputWidth = document.querySelector('#inputWidth');
 const table = document.querySelector('#pixelCanvas');
 const colorPicker = document.querySelector('#colorPicker');
+const submit = document.querySelector('[type=submit]');
 
 /**
  * Get input values and create the table
@@ -25,6 +26,17 @@ function makeGrid() {
         table.appendChild(tableRow);
     }
 }
+
+// Draw the grid by clicking the submit button
+submit.addEventListener('click', function (event) {
+    // preventDefault 
+    event.preventDefault();
+    // check if table row exist in the table 
+    while (table.firstChild !== null) {
+        table.removeChild(table.firstChild);
+    }
+    makeGrid();
+});
 
 // Change the background color of the table cell
 function changeColor(event) {
