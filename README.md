@@ -16,8 +16,8 @@ The users are able to:
 ![](img/screencapture-pixelArtMaker-project.png)
 
 # External Resources Used
-[HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
-[CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
-[JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
-[Git Style Guide](https://udacity.github.io/git-styleguide/)
-[Google Fonts](https://fonts.google.com/)
+- [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
+- [CSS Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/css.html)
+- [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
+- [Git Style Guide](https://udacity.github.io/git-styleguide/)
+- [Google Fonts](https://fonts.google.com/)
